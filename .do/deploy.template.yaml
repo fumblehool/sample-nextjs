@@ -8,4 +8,4 @@ spec:
     name: sample-nextjs
     envs:
     - key: PORT
-      value: 3000
+      value: "3000"
