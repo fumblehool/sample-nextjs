@@ -1,0 +1,12 @@
+name: octopus-app
+region: blr
+services:
+- environment_slug: node-js
+  envs:
+  - key: PORT
+    scope: RUN_AND_BUILD_TIME
+    value: "3000"
+  github:
+    branch: test
+    deploy_on_push: true
+    repo: fumblehool/sample-nextjs
