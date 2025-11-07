@@ -1,0 +1,11 @@
+spec:
+  name: sample-nextjs
+  services:
+  - environment_slug: node-js
+    git:
+      branch: test
+      repo_clone_url: https://github.com/fumblehool/sample-nextjs.git
+    name: sample-nextjs
+    envs:
+    - key: PORT
+      value: 3000
